@@ -425,6 +425,73 @@ font-size: 3rem;
     text-align: center;
 }
 
+/* package types */
+.package-type{
+    margin: 10px  10px;
+    padding: 20px;
+}
+.package-type img {
+    max-width: 300px;
+}  
+.partone{
+   margin: 0 auto;
+}
+.parttwo{
+    margin: 0 auto;
+}
+.pkg-button{
+    color: antiquewhite;
+    border: 2px solid cadetblue;
+    align-items: center;
+}
+.package-type
+.seasonal,
+.monsoon,
+.houseboat,
+.ayurveda,
+.wedding,
+.honeymoon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  text-align: center;
+    border: 2px solid #C33C54;
+}
+/* seasonal-package*/
+.summer-winter{
+    margin: 30px 10px;
+    text-align: center;
+   
+        padding: 10px;
+ align-items: center;
+}
+.summer-winter img{
+    max-width: 400px;
+}
+.summer-winter ul li{
+    list-style: none;
+  text-align: center;   
+}
+ul:hover {background-color:lightcoral;}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0  auto;
+
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: center;
+}
+tr:hover {background-color:lightcoral;}
+
+
+
 
 
 /* Owl Carousel */
