@@ -490,10 +490,22 @@ th {
 }
 tr:hover {background-color:lightcoral;}
 
-
-
-
-
+/* gallery-page */
+.gallery-image img{
+    max-width: 300px;
+}
+.gallery-image{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* facility page */
+.resort-facilities {
+    margin: 20px  20px;
+}
+.resort-facilities img{
+    max-width: 300px;
+}
 /* Owl Carousel */
 
 .owl-carousel p{
