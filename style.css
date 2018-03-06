@@ -22,6 +22,7 @@ body{
     font-size: 16px;
     color:#254E70;
 }
+
   
   h1,
   h2,
@@ -301,6 +302,11 @@ font-size: 3rem;
 .gallery-content img{
    width: 300px;
 }
+.gallery-image iframe{
+    margin:0 10px;
+    padding: 10px 10px;
+
+}
 /* about page */
 .pageTitle,
 .pageSubTitle {
@@ -326,9 +332,7 @@ font-size: 3rem;
 }
 
 .background {
-  background: 
-    url("http://img.talkandroid.com/uploads/2013/03/htc-sense-5-wallpaper-3.jpg")
-    repeat;
+  background-color: #C6F6FF;
   background-size: 100% auto;
   position: fixed;
   width: 100%;
@@ -416,7 +420,7 @@ font-size: 3rem;
      padding:5px 10px;
      font-size: 12px;
      letter-spacing:1px;
-     background:#dd4545;
+     background:;
      height:40px;
      text-transform:uppercase;
      letter-spacing:1px;
