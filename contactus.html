@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resort</title>
+    <title>contact|resort</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,6 +17,7 @@
 </head>
 <body>
     
+        
         
         <header id="main-header">
             <div class="top-bar">  
@@ -33,7 +34,7 @@
         
               <div class="collapse navbar-collapse main-navbar" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
+                  <li class="nav-item">
                     <a class="nav-link" href="index.html"> Home</a>
                   </li>
                   <li class="nav-item">
@@ -42,10 +43,10 @@
                   <li class="nav-item ">
                     <a class="nav-link" href="gallery.html">Gallery</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item active">
                       <a class="nav-link" href="accomodation.html">Accomodations</a>
                   </li>
-                  <li class="nav-item dropdown active">
+                  <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="packages.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Packages
                       </a>
@@ -68,34 +69,39 @@
               </div>
             </nav>  <!-- end of nav-->
           </header>     <!-- end of header-->
-          <section class="summer-winter container-fluid">
-              <div class="row">
-                  <div class="col-md-6">
-                      <h2>Destinaton Wedding</h2>
-                      <img src="/home/vibs/Documents/sriraksha/learn/html/websiteresort/packages/wedding1.jpeg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse odio voluptates hic. Incidunt repudiandae perspiciatis fugiat. Rerum fuga reprehenderit autem.</p>
-                  </div>
-                  <div class="col-md-6">
-                        <h2>Destinaton Wedding</h2>
-                        <img src="/home/vibs/Documents/sriraksha/learn/html/websiteresort/packages/wedding.jpeg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime culpa accusantium commodi, voluptatibus ipsa explicabo suscipit magni similique? Assumenda!</p>
-                    </div>
-              </div>
-          </section>
+          <section id="contact">
+  
+              <div class="container">
+              
+              <form name="htmlform" method="post">
+              
+              <input type="text" name="first_name" placeholder="NAME" required>
+                
+              <input  type="email" name="email" placeholder="EMAIL" required>
+                
+              <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+                
+              <button name="send" type="submit" class="submit">SEND</button>
+                
+              </form>
+               
+                </div>
+                <div class="resort-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123517.16552835298!2d74.23647256047802!3d14.660967966133011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbe860f3678c4a1%3A0x961711e159e04ede!2sAnkola%2C+Karnataka!5e0!3m2!1sen!2sin!4v1520313154674" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </section>
+                  <footer>
+                      <div class="footer-bar container">
+                          <p>Design by <a href="https://vibs.co.in">VIBS,Mangalore</a></p>
+                          <p>&copy; 2018 - Samrat Resorts</p>
+                          <p><a href="#main-header">Back to Top <i class="fa fa-hand-o-up" aria-hidden="true"></i></a></p>
+                  </footer> <!-- end of footer-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"> </script> 
+    
 
-          <footer>
-            <div class="footer-bar container">
-                <p>Design by <a href="https://vibs.co.in">VIBS,Mangalore</a></p>
-                <p>&copy; 2018 - Samrat Resorts</p>
-                <p><a href="#main-header">Back to Top <i class="fa fa-hand-o-up" aria-hidden="true"></i></a></p>
-        </footer> <!-- end of footer-->
-         
-        
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="owlcarousel/owl.carousel.min.js"> </script> 
-
-
-</body>
-</html> 
+    
+    </body>
+    </html> 
