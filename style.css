@@ -104,6 +104,9 @@ color: #C6F6FF !important;
 .navbar-brand{
     margin: 0 25px;
 }
+.main-navbar li.active{
+    background-color:black;
+}
 
 .navbar-brand .logo{
 font-family: 'Berkshire Swash', cursive;
@@ -368,23 +371,13 @@ font-size: 3rem;
   
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
-  /* contact */
-  .wrapper{
-
-    width: 75%;
-  }
-  .contact{
-    border: 2px solid black;
-    width: 75%;
-    align-items: center;
-
-}
  /*contact-form styles */
 
  #contact {
      width:100%; 
      height:100%; 
      margin :0 auto; 
+     margin-top: 10px;
      background-color:#ddd;
      }
 
