@@ -7,9 +7,7 @@ p{
     margin: 10px;
     font-family: 'Raleway', sans-serif;
 }
-a{
-    text-decoration: none;
-}
+
 /* fontawesome */
 i{
     padding: 10px;
@@ -23,7 +21,11 @@ body{
     font-size: 16px;
     color:#254E70;
 }
+section  li{
 
+    padding: 10px 10px;
+    margin: 0 auto;
+}
   
   h1,
   h2,
@@ -415,7 +417,7 @@ font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-  text-align: center;
+     text-align: center;
     border: 2px solid #C33C54;
 }
 /* seasonal-package*/
@@ -449,7 +451,16 @@ th {
     text-align: center;
 }
 tr:hover {background-color:lightcoral;}
-
+/* ayurveda package */
+.ayurveda-resort{
+   margin:  0 auto;
+   padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.ayurvedaa-resort{
+    margin:  0 auto;
+    padding: 10px 10px;
+}
 /* gallery-page */
 .gallery-image img{
     max-width: 300px;
