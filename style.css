@@ -447,16 +447,7 @@ th {
     text-align: center;
 }
 tr:hover {background-color:lightcoral;}
-/* ayurveda package */
-.ayurveda-resort{
-   margin:  0 auto;
-   padding: 10px 10px;
-  margin-bottom: 20px;
-}
-.ayurvedaa-resort{
-    margin:  0 auto;
-    padding: 10px 10px;
-}
+
 /* monsoon */
 .monsoon-table{
     margin-top: 20px;
