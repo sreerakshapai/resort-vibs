@@ -296,12 +296,12 @@ font-size: 3rem;
 
 
 /* gallery */
-.container .gallery-content{
+ .gallery-content{
     padding: 10px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 .gallery-content img{
-   width: 300px;
+   width: 200px;
 }
 .gallery-image iframe{
     margin:0 10px;
@@ -316,7 +316,7 @@ font-size: 3rem;
 }
 .about-content {
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 20px 10px;
 
 }
  #contact {
@@ -456,6 +456,10 @@ tr:hover {background-color:lightcoral;}
 .ayurvedaa-resort{
     margin:  0 auto;
     padding: 10px 10px;
+}
+/* monsoon */
+.monsoon-table{
+    margin-top: 20px;
 }
 /* gallery-page */
 .gallery-image img{
