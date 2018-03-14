@@ -552,11 +552,11 @@ margin: 0 !important;
 /* accomodations */
 .accomodations{
     margin: 30px auto;
-    padding: 40px;
+    padding: 30px;
   
 }
 .accomodations img {
-    max-width: 500px;
+    max-width: 600px;
 }
 .accomodations .acco{
     margin: 0 auto;
