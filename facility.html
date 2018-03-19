@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resort</title>
+    <title>Samrat Resorts | Facilities</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -60,49 +60,54 @@
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </nav>  <!-- end of nav-->
       </header>     <!-- end of header-->
-     <section class="resort-facilities">
-        <div class="row">
-            <div class="col-3">
-             <img src="swimming.jpeg">
-             <p class="text-center">Swimming Pool</p>
-            </div>
-            <div class="col-3">
-                <img src="healthclub.jpeg">
-                <p class="text-center">Health Club</p>
-               </div>
-               <div class="col-3">
-                  <img src="wifi.jpg">
+     <section class="resort-facility">
+        <h2 class="text-center page-title">Facilities</h2>
+        <hr>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3">
+                 <img src="images/swimming.jpeg">
+                 <p class="text-center">Swimming Pool</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/healthclub.jpeg">
+                    <p class="text-center">Health Club</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="images/wifi.jpg">
                   <p class="text-center">Wi-Fi</p>
-                 </div>
-                 <div class="col-3">
-                    <img src="conference.jpeg">
-                    <p class="text-center">Conference Hall</p>
-                   </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-                <img src="car-parking.jpg">
-                <p class="text-center">Car Parking</p>
-            </div>
-            <div class="col-md-3">
-                <img src="spa.jpeg">
-                <p class="text-center">Spa</p>
-            </div>
-            <div class="col-md-3">
-              <img src="banquet.jpeg">
-              <p class="text-center">Banquet Hall</p>
-          </div>
-          <div class="col-md-3">
-            <img src="indoor.jpeg">
-            <p class="text-center">Indoor Games</p>
-        </div>
-          </div>
+                </div>
+                <div class="col-md-3">
+                  <img src="images/conference.jpeg">
+                  <p class="text-center">Conference Hall</p>
+                </div>
+              </div>
+
+              <div class="row text-center">
+                  <div class="col-md-3">
+                      <img src="images/car-parking.jpg">
+                      <p class="text-center">Car Parking</p>
+                  </div>
+                  <div class="col-md-3">
+                      <img src="images/spa.jpeg">
+                      <p class="text-center">Spa</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/banquet.jpeg">
+                    <p class="text-center">Banquet Hall</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="images/indoor.jpeg">
+                  <p class="text-center">Indoor Games</p>
+                </div>
+              </div>
+        </div>  
      </section>
       <footer>
           <div class="footer-bar container">
@@ -112,9 +117,22 @@
       </footer> <!-- end of footer-->
        
       
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <script>
+          var docWidth = document.documentElement.offsetWidth;
+        
+        [].forEach.call(
+          document.querySelectorAll('*'),
+          function(el) {
+            if (el.offsetWidth > docWidth) {
+              console.log(el);
+            }
+          }
+        );
+        </script>
   
 </body>
 </html>

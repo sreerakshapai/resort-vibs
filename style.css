@@ -1,382 +1,466 @@
+/* General Settings */
 
-* {
-    box-sizing: border-box;
-}
-p{
-    padding: 0;
-    margin: 10px;
-    font-family: 'Raleway', sans-serif;
-    text-align: justify;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-/* fontawesome */
-i{
-    padding: 10px;
-    align-content: space-between;
-    justify-content: center;
-    margin: 0 auto;
-}
-body{
-    background:#C6F6FF;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    color:#254E70;
-}
-section  li{
+    body{
+        background:#C6F6FF;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        color:#254E70;
+    }
 
-    padding: 10px 10px;
-    margin: 0 auto;
-}
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+    p{
+        padding: 0;
+        margin: 10px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
     font-family: 'Roboto Slab', serif;
     color:#C33C54;
-  }
-  main {
+    }
+
+    main {
     padding: 0 !important;
     margin: 0 auto !important;
-  }
-  
- 
-footer{
-    background:#C33C54;
-    padding: 10px;
-    color: #C6F6FF;
-}
+    }
 
-footer a{
-    color: goldenrod;
-    font-weight: bold;
-}
+    i{
+        padding: 10px;
+        align-content: space-between;
+        justify-content: center;
+        margin: 0 auto;
+    }
 
-footer a:hover{
-    text-transform: none;
-    color:goldenrod;
-    text-shadow: none;
-}
+    .well-spaced {
+        padding: 1%;
+        margin: 2.5% auto;
+    }
 
+    section  li{
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
 
-.footer-bar{
-    display: flex;
-    justify-content: space-around;
-}
+    .top-bar h1{
+        font-family: 'Berkshire Swash', cursive;
+    }
 
-.top-bar h1{
+    .navbar {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #C33C54 !important;
+        color: #C6F6FF;
+    }
+
+        
+    .navbar ul{
+        margin: 0 auto;
+        list-style: none;
+        text-align: left;
+    }
+
+    .navbar li {
+        margin: 10px;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: normal;
+        color: #C6F6FF !important;
+    }
+    
+    .nav-link{
+        display: inline;
+        margin: 0 auto;
+        
+    }
+
+    .navbar-brand{
+        margin: 0 25px;
+    }
+    .main-navbar li.active{
+        background-color: darkred;
+    }
+
+    .navbar-brand .logo{
     font-family: 'Berkshire Swash', cursive;
-}
+    }
 
-.navbar {
-margin: 0;
-padding: 0;
-text-align: center;
-background-color: #C33C54 !important;
-color: #C6F6FF;
-}
+    .navbar-brand i,
+    .navbar-brand .logo {
+    font-size: 3rem;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #C6F6FF;
+        background-color: #C6F6FF;
+    }  
 
-	
-.navbar ul{
-margin: 0 auto;
-list-style: none;
-text-align: left;
-}
+    .dropdown-menu{
+        background-color: #C33C54;
+        border: 2px solid darkred;
+    }
 
-.navbar li {
-    margin: 10px;
-}
-  
-.navbar a{
-text-decoration: none;
-font-family: Cambria, serif;
-font-size: 1.2rem;
-font-style: normal;
-font-weight: normal;
-text-transform: normal;
-color: #C6F6FF !important;
-}
-  
-.nav-link{
-    display: inline;
-    margin: 0 auto;
+    .dropdown-menu a:hover{
+        background-color: darkred;
+    }
+
+    footer{
+        background:#C33C54;
+        padding: 10px;
+        color: #C6F6FF;
+    }
+
+    footer a{
+        color: aqua;
+        font-weight: bold;
+    }
+
+    footer a:hover{
+        text-transform: none;
+        color:goldenrod;
+        text-shadow: none;
+    }
+
+    .footer-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .page-title {
+        margin-top: 2.5%;
+        margin-bottom: 1.5%;
+    }
+
+/* Index Page */
+
+    /* Carousel */
+    .carousel{
+        margin: 0;
+        padding: 0;
+    }
+    .carousel img{
+        width: 100%;
+        max-height: 500px;
+    }
+
+    /* Booking Form */
+    .booking .booking-wrapper{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background-color: #C33C54;
+        color: #C6F6FF;
+    }
+    .form-header{
+        color:#C6F6FF ;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .booking .form-resort{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .form-resort .form-col {
+        flex: 3;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-btn-col {
+        flex: 1 !important;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
+    }
+    .search-btn{
+        background-color: #C6F6FF;
+        border-color: #C6F6FF;
+        color: #C33C54;
+        font-weight: bold;
+    }
+
+    /* About Section */
+    .about-us{
+        text-align: justify;
+        padding: 0 5%;
+    }
+    .about-us h2{
+        text-align: center;
+        margin: 25px auto;
+    }
+    .about-us .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-us .left-col,
+    .about-us .right-col{
+        flex: 1;
+    }
+    .video-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-div iframe{
+        width: 75%;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    /* Call now */
+    .call-now{
+        background-color: #C33C54;
+        color: #C6F6FF;
+        padding: 0.5% 0;
+        font-size: 1.4rem;
+        margin-bottom: 2.5%;
+        width: 100%;
+    }
+
+    .social-links {
+        color: aqua;
+    }
+
+    .social-links:hover{
+        color: gold;
+    }
+
+    /* Accomodation */
+
+    .accomodation {
+        padding: 0 5%;
+        text-align: justify;
+    }
+
+    .accomodation h2{
+        text-align: center;
+        margin: 25px auto;    
+    }
+
+    .accomodation img{
+        max-width: 300px;
+    }
+
+    .accomodation-images {
+        margin: 2.5% auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .acc-image{
+        flex:1;
+        margin: 1%;
+    }
+
+    .accomodation a{
+        color: #C33C54;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    /* Facilities */
+
+    .facilities {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 5%;
+        text-align: justify;
+    }
+    .facility {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facility p {
+        color: #C33C54;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+    .facility img {
+        max-width: 300px;
+    }
     
-}
+    .resort-facilities{
+        padding-bottom: 5%;
+    }
 
-.navbar-brand{
-    margin: 0 25px;
-}
-.main-navbar li.active{
-    background-color:black;
-}
+    .learn-more-btn{
+        background-color: #C33C54;
+        border-color: #C33C54;
+        color: #FFF !important;
+        text-transform: capitalize !important;
+        font-weight: normal !important;
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
 
-.navbar-brand .logo{
-font-family: 'Berkshire Swash', cursive;
-}
+    /* Owl Carousel */
 
-.navbar-brand i,
-.navbar-brand .logo {
-font-size: 3rem;
-}
-.navbar-light .navbar-toggler {
-    border-color: #C6F6FF;
-    background-color: #C6F6FF;
-}  
+    .owl-carousel {
+        overflow: hidden;
+    }
 
-.dropdown-menu{
-    background-color: #C33C54;
-    border: 2px solid #C6F6FF;
-}
+    .owl-stage {
+        overflow: hidden;
+    }
 
-/* carousel */
+    .owl-carousel p{
+        color: #C33C54;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
-.carousel{
-    margin: 0;
-    padding: 0;
-}
+    .icon {
+        background: rgba(255, 255, 255, .1);
+        color: rgba(0, 0, 0, .3);
+        font-family: 'FontAwesome';
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: -30px;
+        position: absolute; top: 50%;
+        text-align: center;
+        width: 60px; height: 60px;
+    }
 
-.carousel img{
-    width: 100%;
-    max-height: 500px;
-}
-
-/* booking newsletter */
-.booking .booking-wrapper{
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    background-color: #C33C54;
-    color: #C6F6FF;
-}
-.form-header{
-    color:#C6F6FF ;
-    padding: 10px;
-    margin: 0 auto;
-}
-  
-.booking .form-resort{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.form-resort .form-col {
-    flex: 3;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-btn-col {
-    flex: 1 !important;
-    align-items: flex-end !important;
-    justify-content: flex-end !important;
-}
-
-.search-btn{
-    background-color: #C6F6FF;
-    border-color: #C6F6FF;
-    color: #C33C54;
-    font-weight: bold;
-}
-
-/* About Section */
-
-.about-us{
-    padding: 0 5%;
-    text-align: justify;
-}
-
-.about-us h2{
-    text-align: center;
-    margin: 25px auto;
-}
-
-.about-us .row{
-    display: flex;
-}
-
-.about-us .left-col,
-.about-us .right-col{
-    flex: 1;
-}
-
-.video-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-div iframe{
-    width: 75%;
-    margin: 0 auto;
-    height: 300px;
-}
-
-/* call now */
-.call-now{
-    background-color: #C33C54;
-    color: #C6F6FF;
-    padding: 0.5% 0;
-    font-size: 1.4rem;
-    margin-bottom: 2.5%;
-    width: 100%;
-}
-
-/* Accomodation */
-
-.accomodation {
-    padding: 0 5%;
-    text-align: justify;
-}
-
-.accomodation h2{
-    text-align: center;
-    margin: 25px auto;    
-}
-
-.accomodation img{
-    max-width: 300px;
-}
-
-.accomodation-images {
-    margin: 2.5% auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.acc-image{
-    flex:1;
-    margin: 1%;
-}
-
-.accomodation a{
-    color: #C33C54;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-/* Facilities */
-
-.facilities {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 5%;
-    text-align: justify;
-    margin-bottom: 5%;
-}
-.facility {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.facility p {
-    color: #C33C54;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-
-.facility img {
-    max-width: 300px;
-}
-
-.resort-facilities{
-    overflow: hidden;
-}
-
-
-
-/* gallery */
- .gallery-content{
-    padding: 10px;
-    margin: 0 auto;
-}
-.gallery-content img{
-   width: 200px;
-}
-.gallery-image iframe{
-    margin:0 10px;
-    padding: 10px 10px;
-
-}
-
-/* about page */
-.about-content img{
-    max-width: 400px;
-    margin:60px 60px;
-}
-.about-content {
-    margin: 0 auto;
-    padding: 20px 10px;
-
-}
- #contact {
-     width:100%; 
-     height:100%; 
-     margin :0 auto; 
-     margin-top: 10px;
-     background:#C6F6FF;    
-     }
-
- .container {width:960px; height:auto; margin: 0 auto; padding: 50px 0;}
- 
- #contact .container form input,
- #contact .container form textarea {
-     width:97.4%;
-     height:30px;
-     padding:5px 10px;
-     font-size: 12px;
-     color:#999;
-     letter-spacing:1px;
+    .owl-next, 
+    .owl-prev {
+    height: 100%;    
+    margin: 0 !important;
+    }
+    .owl-next {
+    right: 0;
+    }
+    .owl-prev {
+    left: 0;
+    }
+    .owl-next:hover .icon, 
+    .owl-prev:hover .icon {
+    background: rgba(195, 60, 84,0.8);
+    color: rgba(255, 255, 255, .9);
     
+    }
+    .icon-arrow-left7 {left: 0; }
+    .icon-arrow-left7:before { content: "\f054";}
+    .icon-arrow-right7 { right: 0; }
+    .icon-arrow-right7:before { content: "\f053"; }
 
-     border:2px solid #FFF;
-     margin-bottom:25px;
-  
- }
- #contact .container form input:focus,
- #contact .container form textarea:focus {
-   border:2px solid #dd4545;
- }
- #contact .container form textarea {
-     height:150px;}
- 
- #contact .container form .submit {
-     width:100%;
-     padding:5px 10px;
-     font-size: 12px;
-     letter-spacing:1px;
-  
-     height:40px;
-     text-transform:uppercase;
-     letter-spacing:1px;
-     border:2px solid #b43838;
-   -webkit-transition:all .1s ease-in-out;
-     -moz-transition:all .1s ease-in-out;
-     -ms-transition:all .1s ease-in-out;
-     -o-transition:all .1s ease-in-out;
-     transition:all .1s ease-in-out;}
- 
- #contact .container form .submit:hover {
-     color:#FFF;
-     border:2px solid maroon;
-     background: maroon;
-     cursor:pointer;}
- 
- #contact .container form .required {
-     color:#b43838;}
-.resort-map iframe{
-    width: 100%;
-}
+    @media (min-width: 768px) {
+    .owl-carousel {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .owl-item > div {
+        margin: 45px 60px;
+        transition: 400ms ease-out;
+    }
+    .owl-item.center > div {
+        margin: 0;
+    }
+    .owl-next {
+        right: 60px;
+    }
+    .owl-prev {
+        left: 60px;
+    }
+    .icon-arrow-left7 { left: auto; right: 0; }
+    .icon-arrow-right7{ left: 0; right: auto; }
+    }
+
+/* Contact Page */
+    #contact {
+        width:100%; 
+        height:100%; 
+        margin :0 auto; 
+        background:#C6F6FF;    
+        }
+    
+    #contact .container form input,
+    #contact .container form textarea {
+        width:97.4%;
+        height:30px;
+        padding:5px 10px;
+        font-size: 12px;
+        color:#999;
+        letter-spacing:1px;
+        border:2px solid #FFF;
+        margin-bottom:25px;
+    
+    }
+    #contact .container form input:focus,
+    #contact .container form textarea:focus {
+    border:2px solid #dd4545;
+    }
+    #contact .container form textarea {
+        height:150px;}
+    
+    #contact .container form .submit {
+        width:100%;
+        padding:10px;
+        letter-spacing:1px;
+        height:50px;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        background-color: #C33C54;
+        border:2px solid #C33C54;
+        color: #FFF;
+        font-size: 1.2rem;
+        -webkit-transition:all .1s ease-in-out;
+        -moz-transition:all .1s ease-in-out;
+        -ms-transition:all .1s ease-in-out;
+        -o-transition:all .1s ease-in-out;
+        transition:all .1s ease-in-out;}
+    
+    #contact .container form .submit:hover {
+        color:#FFF;
+        border:2px solid maroon;
+        background: maroon;
+        cursor:pointer;}
+    
+    #contact .container form .required {
+        color:#b43838;}
+    .resort-map iframe{
+        width: 100%;
+    }
+
+    .contact-row {
+        margin: 2.5% auto;
+    }
+
+    .address {
+        color: #C33C54;
+    }
+
+    .address a{
+        color: darkred;
+        font-weight: bold;
+    }
 
 
 .call-now p {
@@ -384,69 +468,33 @@ font-size: 3rem;
     text-align: center;
 }
 
-/* package types */
-.package-type{
-    margin: 10px  10px;
-    padding: 20px;
-}
-.package-type img {
-    max-width: 300px;
-}  
-.partone{
-   margin: 0 auto;
-}
-.parttwo{
-    margin: 0 auto;
-}
-.pkg-button{
-    color: antiquewhite;
-    border: 2px solid cadetblue;
-    align-items: center;
-}
-.package-type
-.seasonal,
-.monsoon,
-.houseboat,
-.ayurveda,
-.wedding,
-.honeymoon{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-     text-align: center;
-    border: 2px solid #C33C54;
-}
-/* seasonal-package*/
-.summer-winter{
-    margin: 30px 10px;
-    text-align: center;
-   
-        padding: 10px;
- align-items: center;
-}
-.summer-winter img{
-    max-width: 400px;
-}
-.summer-winter ul li{
-    list-style: none;
-  text-align: center;   
-}
 
+/* Seasonal-package Page*/
+    .summer-winter{
+        text-align: center;
+    }
+    .summer-winter img{
+        max-width: 400px;
+    }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 50%;
-    margin: 0  auto;
+    .includes {
+        margin: 2.5% auto;  
+    }
 
-}
-th, td {
-    padding: 5px;
-}
-th {
-    text-align: center;
-}
-tr:hover {background-color:lightcoral;}
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 50%;
+        margin: 0  auto;
+
+    }
+    th, td {
+        padding: 5px;
+    }
+    th {
+        text-align: center;
+    }
+    tr:hover {background-color:lightcoral;}
 
 /* monsoon */
 .monsoon-table{
@@ -465,103 +513,40 @@ tr:hover {background-color:lightcoral;}
     margin-top: 20px;
     margin-bottom: 20px;
 }
-/* facility page */
-.resort-facilities {
-    margin: 20px  20px;
-}
-.resort-facilities img{
-    max-width: 300px;
-}
-.image-galleryslider img{
-max-width: 250px;
-padding: 10px 10px;
-margin: 40px 40px;
-}
- 
 
-/* Owl Carousel */
+/* About Page */
+    .about-content img{
+        max-width: 300px;
+        margin: 10px;
+    }
+    .about-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
 
-.owl-carousel p{
-    color: #C33C54;
-    font-weight: bold;
-    text-transform: uppercase;
- 
-}
+/* Facility page */
+    .resort-facility img{
+        max-width: 300px;
+    }
 
+/* Accomodations Page*/
+    .accomodations{
+        margin: 30px auto;  
+    }
+    .accomodations img {
+        max-width: 600px;
+    }
+    .accomodations .acco-types{
+        margin: 5% auto;
+    }
 
-.icon {
-    background: rgba(255, 255, 255, .1);
-    color: rgba(0, 0, 0, .3);
-    font-family: 'FontAwesome';
-    font-size: 40px;
-    line-height: 60px;
-    margin-top: -30px;
-    position: absolute; top: 50%;
-    text-align: center;
-    width: 60px; height: 60px;
-  }
+    .acco-types p{
+        text-align: center;
+    }
 
-.owl-next, 
-.owl-prev {
-  height: 100%;    
-margin: 0 !important;
-}
-.owl-next {
-  right: 0;
-}
-.owl-prev {
-  left: 0;
-}
-.owl-next:hover .icon, 
-.owl-prev:hover .icon {
-  background: rgba(195, 60, 84,0.8);
-  color: rgba(255, 255, 255, .9);
-  
-}
-.icon-arrow-left7 {left: 0; }
-.icon-arrow-left7:before { content: "\f054";}
-.icon-arrow-right7 { right: 0; }
-.icon-arrow-right7:before { content: "\f053"; }
-
-@media (min-width: 768px) {
-  .owl-carousel {
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .owl-item > div {
-    margin: 45px 60px;
-    transition: 400ms ease-out;
-  }
-  .owl-item.center > div {
-    margin: 0;
-  }
-  .owl-next {
-    right: 60px;
-  }
-  .owl-prev {
-    left: 60px;
-  }
-  .icon-arrow-left7 { left: auto; right: 0; }
-  .icon-arrow-right7{ left: 0; right: auto; }
-}
-
-
-/* accomodations */
-.accomodations{
-    margin: 30px auto;
-    padding: 30px;
-  
-}
-.accomodations img {
-    max-width: 600px;
-}
-.accomodations .acco{
-    margin: 0 auto;
-    padding: 20px;
-}
 
 @media only screen and (max-width: 768px){
     header .top-bar{
@@ -591,6 +576,32 @@ margin: 0 !important;
     .icon-arrow-left7:before { content: "\f053";}
     .icon-arrow-right7 { right: 0; }
     .icon-arrow-right7:before { content: "\f054"; }
+
+    .about-row{
+        flex-direction: column;
+    }
+
+    /* Facility page */
+    .resort-facility img{
+        max-width: 200px !important;
+    }
+
+    .acco-image{
+        order: 1;
+    }
+
+    .acco-desc{
+        order: 2;
+    }
+
+    .summer-winter img{
+        max-width: 200px;
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 5%;
+    }
 }
 
 
@@ -630,4 +641,33 @@ margin: 0 !important;
     .about-us .right-col{
         margin: 2.5%;
     }
+
+    .about-row{
+        flex-direction: column;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .about-row .about-image{
+        order: 1;
+    }
+    .about-row .about-content{
+        order: 2;
+    }
+
+    /* Facility page */
+    .resort-facility img{
+        max-width: 150px;
+    }
+
+    .accomodations img {
+        max-width: 300px;
+    }
+
+    .summer-winter img{
+        max-width: 250px;
+    }
+
 }
